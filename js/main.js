@@ -120,16 +120,24 @@
             var el = $(this);
             var elID = this.id;
 						setTimeout( function () {
-              // var effect = el.data('animate-effect');
-							if ( elID === 'fadeIn') {
-								el.addClass('fadeIn animated-slow');
-							} else if ( elID === 'fadeInLeft') {
-								el.addClass('fadeInLeft animated-slow');
-							} else if ( elID === 'fadeInRight') {
-								el.addClass('fadeInRight animated-slow');
-							} else {
+							// var effect = el.data('animate-effect');
+							if(elID != null && elID.length > 0)
+							{
+								el.addClass( elID + ' animated-slow');
+							} else
+							{
 								el.addClass('fadeInUp animated-slow');
 							}
+
+							// if ( elID === 'fadeIn') {
+							// 	el.addClass('fadeIn animated-slow');
+							// } else if ( elID === 'fadeInLeft') {
+							// 	el.addClass('fadeInLeft animated-slow');
+							// } else if ( elID === 'fadeInRight') {
+							// 	el.addClass('fadeInRight animated-slow');
+							// } else {
+							// 	el.addClass('fadeInUp animated-slow');
+							// }
 
 							el.removeClass('item-animate');
 						},  k * 200, 'easeInOutExpo' );

@@ -19,6 +19,8 @@
 .animated-slow {
   animation-duration: 1s;
   animation-fill-mode: both;
+  visibility: inherit!important;
+  opacity: 1!important;
 }
 .element-animated {
   animation-duration: 1s;
