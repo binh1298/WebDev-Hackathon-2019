@@ -225,7 +225,18 @@ iframe {
   left: 0;
   background: rgba(0,0,0,0.3);
 }
+.profile
+{
 
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; 
+  margin-top: 20%;
+}
+.profile div
+{
+  margin: 5%; 
+}
 
 
 /*==================================================================
@@ -254,7 +265,6 @@ iframe {
   width: 100%;
   display: block;
 }
-
 
 
 /*------------------------------------------------------------------

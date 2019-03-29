@@ -176,6 +176,32 @@
 	};
 	contentWayPoint();
 
+  $('#edit-profile').click(function()
+  {
+    $('#fullname').focus();
+    $('#fullname').attr('readonly',false);
+    $('#school').attr('readonly',false);
+    $('#class').attr('readonly',false);
+    $('#email').attr('readonly',false);
+    $('#phone').attr('readonly',false);
+    $('#update-btn').css("display","inline");
+    $('#cancel-btn').css("display","inline");
+
+  });
+  $('#cancel-btn').click(function()
+  {
+    var check=confirm("Do you want to cancel this update?");
+    if(check){
+    $('#fullname').attr('readonly',true);
+    $('#school').attr('readonly',true);
+    $('#class').attr('readonly',true);
+    $('#email').attr('readonly',true);
+    $('#phone').attr('readonly',true);
+    $('#update-btn').css("display","none");
+    $('#cancel-btn').css("display","none");
+  }
+
+  });
 
 
 })(jQuery);

@@ -377,7 +377,32 @@ header .navbar.navbar-light .nav-link.active {
   border-radius: 50%;
   margin: 0 auto;
 }
+.profile-icon
+{
+  line-height: 1.3;
+position: relative;
+}
+.profile-icon::before,  ::after
+{
+  box-sizing: border-box;
+}
+.profile-icon span::before
+{
 
+  font-size: 60px;
+color: #ffb400;
+background: #6b75ff;
+background: -moz-linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, #6b75ff), color-stop(0%, #6b75ff), color-stop(100%, #59b7ff));
+background: -webkit-linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
+background: -o-linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
+background: -ms-linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
+background: linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
+    background-clip: border-box;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b75ff', endColorstr='#59b7ff', GradientType=1 );
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
 .school-features .feature .icon > span:before, .school-features .instructor .icon > span:before,
 .school-instructors .feature .icon > span:before,
 .school-instructors .instructor .icon > span:before {
@@ -1429,3 +1454,6 @@ blockquote p {
     stroke-dashoffset: -136px;
   }
 }
+.ftco-animate {
+  opacity: 0;
+  visibility: hidden; }
