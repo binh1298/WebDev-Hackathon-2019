@@ -16,6 +16,10 @@
   animation-duration: .3s;
   animation-fill-mode: both;
 }
+.animated-slow {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
 .element-animated {
   animation-duration: 1s;
   animation-fill-mode: both;
