@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Elearning Website">
+    <meta name="keywords" content="Quiz,Test,Student,Education">
+    <title>Easy Quiz</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/binhpd.css">
+</head>
+
+<body>
+    <header role="banner">
+        <nav class="navbar navbar-expand-md navbar-dark bg-light">
+            <div class="container">
+                <a class="navbar-brand absolute" href="index.html">Hương 2019</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
+                    aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar-light" id="navbarsExample05">
+                    <ul class="navbar-nav absolute-right">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- END Header -->
+
+    <section class="site-hero site-hero-innerpage overlay"
+        style="background-image: url(images/le_thanh_tong_cropped.jpg);">
+        <div class="container">
+            <div class="row align-items-center site-hero-inner justify-content-center">
+                <div class="col-md-8 text-center">
+                    <div class="mb-5 element-animate">
+                        <h1>Làm bài đi!</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END section -->
+
+    <section class="site-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-3">
+                    <div class="sticky-top">
+                        <h3>Danh sách câu hỏi</h3>
+                        <ul class="list-unstyled d-flex flex-wrap justify-content-start">
+                            <li class="list-group-item w-20"><a href="#">1</a></li>
+                            <li class="list-group-item w-20"><a href="#">2</a></li>
+                            <li class="list-group-item w-20"><a href="#">3</a></li>
+                            <li class="list-group-item w-20"><a href="#">4</a></li>
+                            <li class="list-group-item w-20"><a href="#">5</a></li>
+                            <li class="list-group-item w-20"><a href="#">6</a></li>
+                            <li class="list-group-item w-20"><a href="#">7</a></li>
+                            <li class="list-group-item w-20"><a href="#">8</a></li>
+                            <li class="list-group-item w-20"><a href="#">9</a></li>
+                        </ul>
+                        <h4>Thời gian còn lại: 59:30</h4>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <form action="MainController" method="POST">
+
+                        <h3>Bài thi</h3>
+                        <div class="row">
+                            <div class="card w-100">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Câu hỏi số 1
+                                    </p>
+                                    <h4 class="card-title">Một cộng một bằng bao nhiêu?</h4>
+
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio1" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio1">1</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio2" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio2">2</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio3" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio3">3</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio4" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio4">4</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="card w-100">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Câu hỏi số 2
+                                    </p>
+                                    <h4 class="card-title">Một cộng hai bằng bao nhiêu?</h4>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio5" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio5">1</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio6" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio6">2</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio7" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio7">3</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio8" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio8">4</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="card w-100">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Câu hỏi số 3
+                                    </p>
+                                    <h4 class="card-title">Bài nhạc sau được phát trong phim của ai?</h4>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe width="100%" height="300" scrolling="no" frameborder="no"
+                                            allow="autoplay"
+                                            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/57035884&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio9" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio9">Hoài Linh</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio10" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio10">Châu Tịnh Trì</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio11" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio11">Thành Long</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio12" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio12">Lý Tiểu Long</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="card w-100">
+                                <div class="card-body">
+                                    <p class="card-text">Câu hỏi số 4
+                                    </p>
+                                    <h4 class="card-title">Chị này hát hay không?</h4>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/u9lAIvLosyg?&theme=dark&autohide=1&modestbranding=1&fs=0&showinfo=0&rel=0"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio13" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio13">Có</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio14" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio14">Không</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio15" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio15">Cũng bình thường</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio16" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio16">Vừa vừa</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="card w-100">
+                                <div class="card-body">
+                                    <p class="card-text">Câu hỏi số 5
+                                    </p>
+                                    <h4 class="card-title">Chị này có xinh không?</h4>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/u9lAIvLosyg?&theme=dark&autohide=1&modestbranding=1&fs=0&showinfo=0&rel=0"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio17" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio17">Có</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio18" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio18">Không</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio19" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio19">Cũng bình thường</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio20" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio20">Vừa vừa</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="card w-100">
+                                <div class="card-body">
+                                    <p class="card-text">Câu hỏi số 6
+                                    </p>
+                                    <h4 class="card-title">Chị này biết chơi mấy nhạc cụ?</h4>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/u9lAIvLosyg?&theme=dark&autohide=1&modestbranding=1&fs=0&showinfo=0&rel=0"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio17" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio17">5</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio18" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio18">6</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio19" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio19">7</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio20" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio20">Không biết</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="card w-100">
+                                <div class="card-body">
+                                    <p class="card-text">Câu hỏi số 7
+                                    </p>
+                                    <h4 class="card-title">Đây là ai?</h4>
+                                    <img class="card-img-top" src="images/albert-einstein-sticking-out-his-tongue.jpg"
+                                        alt="Card image cap">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio1" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio1">Marie Curie</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio2" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio2">Albert Einstein</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio3" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio3">Shark Phú</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio4" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio4">Sơn Tùng MTP</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="card w-100">
+                                <div class="card-body">
+                                    <p class="card-text">Câu hỏi số 8
+                                    </p>
+                                    <h4 class="card-title">Tóc người này màu gì?</h4>
+                                    <img class="card-img-top" src="images/albert-einstein-sticking-out-his-tongue.jpg"
+                                        alt="Card image cap">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio1" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio1">Đen</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio2" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio2">Vàng</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio3" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio3">Trắng</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio4" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio4">Bạc</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="card w-100">
+                                <div class="card-body">
+                                    <p class="card-text">Câu hỏi số 9
+                                    </p>
+                                    <h4 class="card-title">Người này giỏi môn gì?</h4>
+                                    <img class="card-img-top" src="images/albert-einstein-sticking-out-his-tongue.jpg"
+                                        alt="Card image cap">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio1" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio1">Lý</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio2" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio2">Anh</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio3" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio3">Văn</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio4" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio4">Sử</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input type="hidden" name="action" value="Submit">
+                            <input type="submit" value="Nộp Bài" class="btn btn-primary">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END section -->
+
+    <footer class="site-footer" style="background-image: url(images/full_blue_purple_compressed.jpg);">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-4">
+                    <h3>Developers</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Phạm Đức Bình</a></li>
+                        <li><a href="#">Nguyễn Đỗ Nhật Khang</a></li>
+                        <li><a href="#">&nbsp;</a></li>
+                        <li><a href="#">@FPT University</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/binhpd_animation.js"></script>
+    <script src="js/binhpd.js"></script>
+</body>
+
+</html>
